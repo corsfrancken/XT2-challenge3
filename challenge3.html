@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>challenge 3</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.js"></script>
+    <script src="challenge3.js" defer></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.css" rel="stylesheet" />
+    <link href="challenge3.css" rel="stylesheet" />
+    <script src="advice.js" defer></script>
+</head>
+
+<body>
+    <nav>
+        <div>
+            <div class="logo">
+                <img src="spacexlogo.png" alt="Space X" width="300" />
+            </div>
+            <div class="menu">
+                <img src="9c.png" alt="Menu" width="30" />
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="parent">
+            <div class="div1">
+                <h3>10 minute proximity</h3>
+                <div id="map" id="params"></div>
+
+
+                <form id="params">
+
+                </form>
+            </div>
+            <div class="div2">
+                <h3>Weather (on location)</h3>
+                <article id="weather"></article>
+            </div>
+            <div class="div3">
+                <h3>Advice</h3>
+                <div id="results"></div>
+                <button class="btn" id="getData">Get advice</button>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
