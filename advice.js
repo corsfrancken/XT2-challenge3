@@ -17,5 +17,3 @@ function adviesGeven() {
 }
 
 
-document.getElementById("adviesKnop").addEventListener("click", adviesGeven);
-
